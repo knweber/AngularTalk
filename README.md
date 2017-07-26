@@ -42,8 +42,8 @@
   * Helps reduce the amount of code you have to write by eliminating most boilerplate and AJAX calls
   
 ## Example
-
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html ng-app>
   <head>
     <title>My AngularJS Blog</title>
@@ -60,7 +60,8 @@
     <p>{{ body }}</p>
    </div>
   </body>
-</html>```
+</html>
+```
 
 ## Angular vs. React
 * Angular puts JS into HTML; React puts HTML into JS
