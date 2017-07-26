@@ -24,7 +24,6 @@
   * Start with `ng-`
   * Examples: attaching a click handler, appending items to a list
 * Everything in Angular is inside a **module**
-  * Similar to modules in Ruby
   * Containers for different parts of an app (e.g. controllers, filters, directives) --> **'components'**
   (a component controls a section of the screen --> the view)
   * Modules should be made for each feature and each reusable component
