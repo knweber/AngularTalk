@@ -62,7 +62,9 @@
   </body>
 </html>
 ```
-
+* The value of the ng-model attribute on the text inputs matches the values inside the curly braces
+  * The content of the form elements is automatically written to the page where the corresponding curly braces are
+  
 ## Angular vs. React
 * Angular puts JS into HTML; React puts HTML into JS
 * Angular is more robust than React (but React isn't exactly a framework, so this comparison is a bit subjective)
