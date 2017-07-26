@@ -70,4 +70,6 @@
 * Angular is more robust than React (but React isn't exactly a framework, so this comparison is a bit subjective)
 * React requires less code and has better performance
 
+## tl;dr
+
 ![toomanyframeworks2](https://cdn-images-1.medium.com/max/1600/1*k67k1BGo3vIPLInrldsJAw.jpeg)
