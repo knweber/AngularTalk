@@ -25,8 +25,8 @@
   * Examples: attaching a click handler, appending items to a list
 * Everything in Angular is inside a **module**
   * Similar to modules in Ruby
-  * Containers for different parts of an app (e.g. controllers, filters, directives)
-  * Each module contains a set of related functions
+  * Containers for different parts of an app (e.g. controllers, filters, directives) --> **'components'**
+  (a component controls a section of the screen --> the view)
   * Modules should be made for each feature and each reusable component
 
 ## High Level View
@@ -36,7 +36,7 @@
 4. View uses directives to manipulate DOM (i.e. Angular manipulates the DOM instead of you doing it directly)
   
 ## When to Use Angular
-* Building client-side single-page applications
+* Building client-side single-page applications (one HTML file and lots of JS from the server, every change is rendered in the browser)
   * Gmail, Facebook, Twitter
 * Basically any CRUD app
   * Helps reduce the amount of code you have to write by eliminating most boilerplate and AJAX calls
