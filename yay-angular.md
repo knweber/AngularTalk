@@ -24,8 +24,9 @@
   * Start with `ng-`
   * Examples: attaching a click handler, appending items to a list
 * Everything in Angular is inside a **module**
-  * Containers for different parts of an app (e.g. controllers, filters, directives) --> **'components'**
+  * Containers for organizing different parts of an app (e.g. controllers, filters, directives) --> **'components'**
   (a component controls a section of the screen --> the view)
+  * May contain several objects with similar functionality
   * Modules should be made for each feature and each reusable component
 
 ## High Level View
@@ -33,6 +34,8 @@
 2. Write logic for the click event in the controller
 3. Pass data from controller to view
 4. View uses directives to manipulate DOM (i.e. Angular manipulates the DOM instead of you doing it directly)
+
+* tl;dr: you update the data, Angular updates the DOM with the data
   
 ## When to Use Angular
 * Building client-side single-page applications (one HTML file and lots of JS from the server, every change is rendered in the browser)
