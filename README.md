@@ -18,7 +18,7 @@
   * View: HTML page
   * View/Model (Controller): Updates the view if there are changes to the model, and updates the model if there are changes made to the view <-- *data binding* (keeps data synchronized between the two)
   * Model 
-* **Directives** (super important!!
+* **Directives** (super important!!)
   * Custom HTML that can be used to manipulate the DOM
   * Makes it easier to develop interactive elements on the page
   * Start with `ng-`
@@ -69,3 +69,5 @@
 * Angular puts JS into HTML; React puts HTML into JS
 * Angular is more robust than React (but React isn't exactly a framework, so this comparison is a bit subjective)
 * React requires less code and has better performance
+
+![toomanyframeworks2](https://cdn-images-1.medium.com/max/1600/1*k67k1BGo3vIPLInrldsJAw.jpeg)
