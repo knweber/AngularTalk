@@ -43,6 +43,24 @@
   
 ## Example
 
+```<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <title>My AngularJS Blog</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  </head>
+  <body>
+   <form>
+    <input ng-model="title" type="text"/>
+    <textarea ng-model="body"></textarea>
+    <input type="submit" value="Post article" />
+   </form>
+   <div class="article">
+    <div>{{ title }}</div>
+    <p>{{ body }}</p>
+   </div>
+  </body>
+</html>```
 
 ## Angular vs. React
 * Angular puts JS into HTML; React puts HTML into JS
