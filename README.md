@@ -1,4 +1,8 @@
 # AngularJS
+
+
+![toomanyframeworks](https://cdn.meme.am/instances/61726473.jpg)
+
 ## What is Angular?
 * JavaScript framework for building dynamic web applications
 * Intended to 'close the gap' between HTML and JS
