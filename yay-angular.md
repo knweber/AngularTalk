@@ -16,7 +16,8 @@
 ## Angular's Structure
 * MVC (but not strict MVC)
   * View: HTML page
-  * View/Model (Controller): Updates the view if there are changes to the model, and updates the model if there are changes made to the view <-- *data binding* (keeps data synchronized between the two)
+  * View/Model (Controller): Updates the view if there are changes to the model, and updates the model 
+  if there are changes made to the view <-- *data binding* (keeps data synchronized between the two)
   * Model 
 * **Directives** (super important!!)
   * Custom HTML that can be used to manipulate the DOM
@@ -38,7 +39,8 @@
 * tl;dr: you update the data, Angular updates the DOM with the data
   
 ## When to Use Angular
-* Building client-side single-page applications (one HTML file and lots of JS from the server, every change is rendered in the browser)
+* Building client-side single-page applications (one HTML file and lots of JS from the server, 
+every change is rendered in the browser)
   * Gmail, Facebook, Twitter
 * Basically any CRUD app
   * Helps reduce the amount of code you have to write by eliminating most boilerplate and AJAX calls
@@ -65,7 +67,8 @@
 </html>
 ```
 * The value of the ``ng-model`` attribute on the text inputs matches the values inside the curly braces
-  * The content of the form elements is automatically written to the page where the corresponding curly braces are
+  * The content of the form elements is automatically written to the page where 
+  the corresponding curly braces are
   
 ## Angular vs. React
 * Angular puts JS into HTML; React puts HTML into JS
